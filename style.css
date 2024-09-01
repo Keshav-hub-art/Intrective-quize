@@ -1,0 +1,48 @@
+/* Basic styling for the body to use a clean and readable font */
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Styling for the quiz container to set its width and center it on the page */
+#quiz-container {
+	width: 80%; /* Sets the width of the quiz container to 80% of the page */
+	margin: 40px auto; /* Centers the container horizontally and adds a margin on top */
+}
+
+/* Styling for each question block to add spacing between them */
+.question {
+	margin-bottom: 20px; /* Adds space between each question */
+}
+
+/* Ensures each label (question options) is displayed as a block with spacing */
+label {
+	display: block; /* Forces the label to take up the full width, making each option a block element */
+	margin-bottom: 10px; /* Adds space between each answer option */
+}
+
+/* Styling for radio buttons to add space between the button and the text */
+input[type="radio"] {
+	margin-right: 10px; /* Adds space between the radio button and the label text */
+}
+
+/* Styling for the submit button */
+#submit-btn {
+	background-color: #4CAF50; /* Sets the button's background color to green */
+	color: #080808; /* Sets the button text color to dark gray */
+	padding: 10px 20px; /* Adds padding inside the button to make it larger */
+	border: none; /* Removes the default border of the button */
+	border-radius: 5px; /* Rounds the corners of the button */
+	cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+/* Styling for the submit button when the user hovers over it */
+#submit-btn:hover {
+	background-color: #3e8e41; /* Darkens the button's background color on hover */
+}
+
+/* Styling for the result container to make the score prominent */
+#result-container {
+	margin-top: 20px; /* Adds space above the result container */
+	font-size: 24px; /* Increases the font size to make the result text larger */
+	font-weight: bold; /* Makes the result text bold */
+}
